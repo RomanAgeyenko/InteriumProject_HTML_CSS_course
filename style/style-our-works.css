@@ -1,0 +1,83 @@
+.our-works-grid-container {
+	display: grid;
+	gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px repeat(2, 355px);   
+	position: relative;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+	margin-bottom: 130px;
+    background-color: #ffffff;
+}
+
+.banner-1, .banner-2, .banner-3,
+.banner-4, .banner-5, .banner-6 {
+	width: 100%;
+    max-width: 375px;
+    height: 100%;
+	max-height: 355px;
+	background-position: center center;	
+}
+
+.title-our-works {
+	grid-column: 1/4;
+	grid-row: 1/2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 2px;
+}
+
+.title-our-works div:first-child {	
+	text-transform: uppercase;
+	font-family: Montserrat;
+    font-weight: bold;
+    font-size: 38px;
+	margin-bottom: 18px ;
+}
+
+.title-our-works div:last-child {	
+	text-transform: uppercase;
+	font-family: Merryweather;
+    font-weight:normal;
+    font-size: 17px;
+}
+
+.banner-1 {
+	grid-column: 1/2;
+	grid-row: 2/3;	
+	background-image: url(../images/banner-for-class-our-works/banner-1.svg);	
+}
+
+.banner-2 {
+	grid-column: 2/3;
+	grid-row: 2/3;
+	background-image: url(../images/banner-for-class-our-works/banner-2.svg);
+}
+
+.banner-3 {
+	grid-column: 3/4;
+	grid-row: 2/3;
+	background-image: url(../images/banner-for-class-our-works/banner-3.svg);
+}
+
+.banner-4 {
+	grid-column: 1/2;
+	grid-row: 3/4;
+	background-image: url(../images/banner-for-class-our-works/banner-4.svg);
+}
+
+.banner-5 {
+	grid-column: 2/3;
+	grid-row: 3/4;
+	background-image: url(../images/banner-for-class-our-works/banner-5.svg);
+}
+
+.banner-6 {
+	grid-column: 3/4;
+	grid-row: 3/4;
+	background-image: url(../images/banner-for-class-our-works/banner-6.svg);
+	margin-bottom: 130px;
+}
